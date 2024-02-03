@@ -1,0 +1,51 @@
+.valintine-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.yesImage {
+    height: 400px;
+    width: 400px;
+    margin-top: -200px;
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 70px;
+}
+
+.text1 {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.defaultImage {
+    height: 300px;
+    width: 300px;
+}
+
+button {
+    padding: 8px;
+    margin: 8px;
+}
+
+.yesButton {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(99, 203, 99);
+    font-weight: 600;
+    color: rgb(32, 32, 32);
+}
+
+.noButton {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(223, 76, 76);
+    font-weight: 600;
+    color: rgb(32, 32, 32);
+}
